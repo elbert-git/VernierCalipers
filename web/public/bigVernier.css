@@ -1,0 +1,29 @@
+.bigVernierRoot {
+  position: relative;
+}
+.bigVernierRoot img {
+  width: 90em;
+}
+.bigVernierRoot .overlay {
+  left: 14em;
+}
+.bigVernierRoot .vernierScaleWords {
+  position: absolute;
+  top: 1.5rem;
+  left: 15.5rem;
+  font-size: 1.5em;
+}
+.bigVernierRoot .vernierScaleWords .line2 {
+  font-weight: 700;
+}
+
+.payAttentionRoot {
+  position: relative;
+  top: -12em;
+}
+
+.payAttention {
+  width: 15em;
+}
+
+/*# sourceMappingURL=bigVernier.css.map */

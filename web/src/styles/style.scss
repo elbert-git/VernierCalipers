@@ -1,2 +1,17 @@
 @use './default.scss';
 @use './content.scss';
+@use './heroCaliper.scss';
+@use './bigVernier.scss';
+@use './ending.scss';
+
+.moveUp{
+  position: relative;
+  top: -9em;
+}
+
+.hr{
+  width: 100%;
+  height: 0.1em;
+
+  background-color: black;
+}

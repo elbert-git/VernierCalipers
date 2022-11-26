@@ -1,0 +1,22 @@
+.heroCaliper{
+  width: 100%;
+  overflow-x: visible;
+
+  img{
+    width: 100%;
+  }
+
+  .heroHolder{
+    width: 90%;
+    position: relative;
+    overflow-x: visible;
+  }
+
+  .heroMeasurementLabel{
+    font-size: 2em;
+  }
+   
+  .heroSlider{
+    position: absolute;
+  }
+}
