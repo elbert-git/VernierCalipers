@@ -1,0 +1,16 @@
+.vernierScale {
+  max-width: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.vernierScale div {
+  max-width: 400px;
+  width: 100%;
+}
+.vernierScale img {
+  max-width: 400px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=vernierScale.css.map */

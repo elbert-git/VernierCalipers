@@ -1,0 +1,320 @@
+/* -------------  My css Stuff */
+/* debug */
+.debugRedLine {
+  outline: solid 3px rgba(255, 0, 0, 0.3);
+}
+
+/* removing default spacings */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.placeHolder {
+  height: 15em;
+  outline: rgba(0, 89, 255, 0.301) solid 1px;
+  width: 100%;
+}
+
+/* flex Classes */
+.flex {
+  display: flex;
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+
+/* justify */
+.flexJustifyCenter {
+  justify-content: center;
+}
+
+.flexJustifyStart {
+  justify-content: flex-start;
+}
+
+.flexJustifyEnd {
+  justify-content: flex-end;
+}
+
+.flexJustifyBetween {
+  justify-content: space-between;
+}
+
+.flexJustifyAround {
+  justify-content: space-around;
+}
+
+.flexJustifyEvenly {
+  justify-content: space-evenly;
+}
+
+/* alignment */
+.flexAlignCenter {
+  align-items: center;
+}
+
+.flexAlignStart {
+  align-items: flex-start;
+}
+
+.flexAlignEnd {
+  align-items: flex-end;
+}
+
+.flexAlignStretch {
+  align-items: stretch;
+}
+
+.flexAlignBaseline {
+  align-items: baseline;
+}
+
+/* flex-grow */
+.flexGrow {
+  flex-grow: 1;
+}
+
+/* sizing divs */
+.fillWidth {
+  width: 100%;
+}
+
+.fillHeight {
+  height: 100%;
+}
+
+.hugHeight {
+  height: fit-content;
+}
+
+.hugWidth {
+  width: fit-content;
+}
+
+/* spacings */
+.padding {
+  padding: 1em;
+}
+
+.paddingHalf {
+  padding: 0.5em;
+}
+
+.margin {
+  margin: 1em;
+}
+
+/* visibility */
+.hide {
+  display: none;
+}
+
+.fadeOut {
+  opacity: 0;
+}
+
+/* layering over */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+html {
+  height: 100vh;
+  max-height: 100vh;
+  width: 100vw;
+  max-width: 100vw;
+  overflow-x: clip;
+  background-color: #9BE1FF;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  max-width: 100vw;
+  overflow-x: clip;
+}
+
+.centerColumnHolder {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-y: visible;
+  overflow-x: visible;
+}
+
+.centerColumn {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow-x: visible;
+}
+
+* {
+  flex: none;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+.constrainContentWidth {
+  max-width: 500px;
+}
+
+.halfWidth {
+  width: 50%;
+}
+
+.mainTitle {
+  padding: 0.5em;
+  font-size: 3em;
+}
+
+.heroCaliper {
+  width: 100%;
+  overflow-x: visible;
+}
+.heroCaliper img {
+  width: 100%;
+}
+.heroCaliper .heroHolder {
+  width: 90%;
+  position: relative;
+  overflow-x: visible;
+}
+.heroCaliper .heroMeasurementLabel {
+  font-size: 2em;
+}
+.heroCaliper .heroSlider {
+  position: absolute;
+}
+
+.bigVernierRoot {
+  position: relative;
+  height: 30em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bigVernierRoot .bot {
+  height: 100%;
+}
+.bigVernierRoot .slideIn {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.bigVernierRoot .slideIn img {
+  height: 100%;
+  position: absolute;
+  left: -14.5em;
+}
+.bigVernierRoot .slideWords {
+  position: absolute;
+  top: 1.75em;
+  font-size: 1.33em;
+  left: 1em;
+}
+.bigVernierRoot .slideWordsBottom {
+  top: 2.75em !important;
+}
+.bigVernierRoot .payAttentionRoot p {
+  max-width: 20em;
+  margin-bottom: 8em;
+}
+@media only screen and (max-width: 500px) {
+  .bigVernierRoot .payAttentionRoot p {
+    max-width: 15em;
+    margin-bottom: 5em;
+  }
+}
+
+.ending iframe {
+  box-sizing: border-box;
+  margin: 1em;
+  width: 80%;
+  aspect-ratio: 16/9;
+}
+
+.vernierScale {
+  max-width: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.vernierScale div {
+  max-width: 400px;
+  width: 100%;
+}
+.vernierScale img {
+  max-width: 400px;
+  width: 100%;
+}
+
+.accuracyText {
+  box-sizing: border-box;
+  padding: 1em;
+}
+
+.finalDiagram {
+  position: relative;
+  display: flex;
+  height: 20em;
+  box-sizing: border-box;
+  margin-top: 1em;
+}
+.finalDiagram .top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.finalDiagram #finalDiagramSlider {
+  position: relative;
+}
+.finalDiagram #aligner {
+  position: absolute;
+  height: 11em;
+  outline: black solid 1px;
+  width: 0.2em;
+  top: 1em;
+}
+
+.rhythmOfOffsets img {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1em 1em 0em 1em;
+}
+
+.moveUp {
+  position: relative;
+  top: -7em;
+  width: 100%;
+}
+
+.moveUpBigVernier {
+  position: relative;
+  top: -2em;
+  width: 100%;
+}
+
+.hr {
+  width: 100%;
+  height: 0.1em;
+  background-color: black;
+}
+
+.para {
+  box-sizing: border-box;
+  padding: 1em;
+}
+
+/*# sourceMappingURL=style.css.map */

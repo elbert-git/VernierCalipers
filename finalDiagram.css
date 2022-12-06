@@ -1,0 +1,30 @@
+.accuracyText {
+  box-sizing: border-box;
+  padding: 1em;
+}
+
+.finalDiagram {
+  position: relative;
+  display: flex;
+  height: 20em;
+  box-sizing: border-box;
+  margin-top: 1em;
+}
+.finalDiagram .top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.finalDiagram #finalDiagramSlider {
+  position: relative;
+}
+.finalDiagram #aligner {
+  position: absolute;
+  height: 11em;
+  outline: black solid 1px;
+  width: 0.2em;
+  top: 1em;
+}
+
+/*# sourceMappingURL=finalDiagram.css.map */
