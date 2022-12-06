@@ -1,0 +1,25 @@
+.mainTitle {
+  padding: 0.5em;
+  font-size: 3em;
+}
+
+.heroCaliper {
+  width: 100%;
+  overflow-x: visible;
+}
+.heroCaliper img {
+  width: 100%;
+}
+.heroCaliper .heroHolder {
+  width: 90%;
+  position: relative;
+  overflow-x: visible;
+}
+.heroCaliper .heroMeasurementLabel {
+  font-size: 2em;
+}
+.heroCaliper .heroSlider {
+  position: absolute;
+}
+
+/*# sourceMappingURL=heroCaliper.css.map */
