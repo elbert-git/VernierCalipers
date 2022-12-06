@@ -25,7 +25,6 @@ export default function initCalipers(){
     mouseRange = (mouseX/heroSize) - offset;
     // clamp mouse move
     mouseRange = clamp(mouseRange, 0, limit);
-    console.log(mouseRange);
      
     // move the slider
     [...elSlidingElement].forEach((element) => {
