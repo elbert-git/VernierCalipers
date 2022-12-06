@@ -2,8 +2,8 @@ const clamp = (num:number, min:number, max:number) => {return Math.min(Math.max(
 
 export default function initFinalDiagram(){
   const elArea = document.getElementsByClassName('finalDiagram')[0];
-  const slider = document.getElementById('finalDiagramSlider')!;
-  const aligner = document.getElementById('aligner');
+  const slider:any = document.getElementById('finalDiagramSlider')!;
+  const aligner:any = document.getElementById('aligner');
    
   // get size of diagram
   let diagramSize = elArea.clientWidth;

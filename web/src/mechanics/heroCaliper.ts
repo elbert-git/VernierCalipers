@@ -50,12 +50,12 @@ export default function initCalipers(){
     [...elSlidingElement].forEach((element) => {
       element.style = `left: ${mouseRange*heroSize}px`
     });
+
+    // get measurement
+    const measurement = clamp((mouseX/heroSize)*15, 0, 12);
+    elLabel.innerHTML = measurement.toFixed(2).toString() + " cm";
   });
    
-  // create lerp loop
-  function moveSlider(){
-
-  }
 }
 
 
