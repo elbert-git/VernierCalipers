@@ -172,6 +172,11 @@ h1, h2, h3 {
   width: 50%;
 }
 
+.mainTitle {
+  padding: 0.5em;
+  font-size: 3em;
+}
+
 .heroCaliper {
   width: 100%;
   overflow-x: visible;
@@ -193,45 +198,123 @@ h1, h2, h3 {
 
 .bigVernierRoot {
   position: relative;
+  height: 30em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.bigVernierRoot img {
-  width: 90em;
+.bigVernierRoot .bot {
+  height: 100%;
 }
-.bigVernierRoot .overlay {
-  left: 14em;
-}
-.bigVernierRoot .vernierScaleWords {
+.bigVernierRoot .slideIn {
   position: absolute;
-  top: 1.5rem;
-  left: 15.5rem;
-  font-size: 1.5em;
+  height: 100%;
+  width: 100%;
 }
-.bigVernierRoot .vernierScaleWords .line2 {
-  font-weight: 700;
+.bigVernierRoot .slideIn img {
+  height: 100%;
+  position: absolute;
+  left: -14.5em;
+}
+.bigVernierRoot .slideWords {
+  position: absolute;
+  top: 1.75em;
+  font-size: 1.33em;
+  left: 1em;
+}
+.bigVernierRoot .slideWordsBottom {
+  top: 2.75em !important;
+}
+.bigVernierRoot .payAttentionRoot p {
+  max-width: 20em;
+  margin-bottom: 8em;
+}
+@media only screen and (max-width: 500px) {
+  .bigVernierRoot .payAttentionRoot p {
+    max-width: 15em;
+    margin-bottom: 5em;
+  }
 }
 
-.payAttentionRoot {
-  position: relative;
-  top: -12em;
+.ending iframe {
+  box-sizing: border-box;
+  margin: 1em;
+  width: 80%;
+  aspect-ratio: 16/9;
 }
 
-.payAttention {
-  width: 15em;
-}
-
-iframe {
+.vernierScale {
   max-width: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.vernierScale div {
+  max-width: 400px;
+  width: 100%;
+}
+.vernierScale img {
+  max-width: 400px;
+  width: 100%;
+}
+
+.accuracyText {
+  box-sizing: border-box;
+  padding: 1em;
+}
+
+.finalDiagram {
+  position: relative;
+  display: flex;
+  height: 20em;
+  box-sizing: border-box;
+  margin-top: 1em;
+}
+.finalDiagram .top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.finalDiagram #finalDiagramSlider {
+  position: relative;
+}
+.finalDiagram #aligner {
+  position: absolute;
+  height: 11em;
+  outline: black solid 1px;
+  width: 0.2em;
+  top: 1em;
+}
+
+.rhythmOfOffsets img {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1em 1em 0em 1em;
 }
 
 .moveUp {
   position: relative;
-  top: -9em;
+  top: -6em;
+  width: 100%;
+}
+
+.moveUpBigVernier {
+  position: relative;
+  top: -2em;
+  width: 100%;
 }
 
 .hr {
   width: 100%;
   height: 0.1em;
   background-color: black;
+}
+
+.para {
+  box-sizing: border-box;
+  padding: 1em;
 }
 
 /*# sourceMappingURL=style.css.map */

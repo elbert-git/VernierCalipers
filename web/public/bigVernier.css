@@ -1,29 +1,42 @@
 .bigVernierRoot {
   position: relative;
+  height: 30em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.bigVernierRoot img {
-  width: 90em;
+.bigVernierRoot .bot {
+  height: 100%;
 }
-.bigVernierRoot .overlay {
-  left: 14em;
-}
-.bigVernierRoot .vernierScaleWords {
+.bigVernierRoot .slideIn {
   position: absolute;
-  top: 1.5rem;
-  left: 15.5rem;
-  font-size: 1.5em;
+  height: 100%;
+  width: 100%;
 }
-.bigVernierRoot .vernierScaleWords .line2 {
-  font-weight: 700;
+.bigVernierRoot .slideIn img {
+  height: 100%;
+  position: absolute;
+  left: -14.5em;
 }
-
-.payAttentionRoot {
-  position: relative;
-  top: -12em;
+.bigVernierRoot .slideWords {
+  position: absolute;
+  top: 1.75em;
+  font-size: 1.33em;
+  left: 1em;
 }
-
-.payAttention {
-  width: 15em;
+.bigVernierRoot .slideWordsBottom {
+  top: 2.75em !important;
+}
+.bigVernierRoot .payAttentionRoot p {
+  max-width: 20em;
+  margin-bottom: 8em;
+}
+@media only screen and (max-width: 500px) {
+  .bigVernierRoot .payAttentionRoot p {
+    max-width: 15em;
+    margin-bottom: 5em;
+  }
 }
 
 /*# sourceMappingURL=bigVernier.css.map */

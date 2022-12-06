@@ -1,29 +1,47 @@
 .bigVernierRoot{
   position: relative;
-  img{
-    width: 90em;
-  }
-   
-  .overlay{
-    left: 14em;
+  height: 30em; width: 100%;
+
+  display: flex; align-items: center; justify-content: center;
+
+
+  .bot{
+    height: 100%;
   }
 
-  .vernierScaleWords{
+  .slideIn{
     position: absolute;
-    top: 1.5rem; left: 15.5rem;
-    font-size: 1.5em;
+    height: 100%;
+    width: 100%;
+    img{
+      height: 100%;
+      position: absolute;
+      left: -14.5em;
+    }
+     
+  }
 
-    .line2{
-      font-weight: 700;
+  $moveDown: 1.75em;
+  .slideWords{
+    position: absolute;
+    top: $moveDown;
+    font-size: 1.33em;
+    left: 1em;
+  }
+  .slideWordsBottom{
+    top: $moveDown + 1em !important;
+  }
+
+  .payAttentionRoot{
+    p{
+      max-width: 20em;
+      margin-bottom: 8em;
+    }
+    @media only screen and (max-width: 500px) {
+      p {
+        max-width: 15em;
+        margin-bottom: 5em;
+      }
     }
   }
-}
-
-
-.payAttentionRoot{
-  position: relative;
-  top: -12em;
-}
-.payAttention{
-  width: 15em;
 }

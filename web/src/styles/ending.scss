@@ -1,3 +1,9 @@
-iframe{
-  max-width: 100%;
+
+.ending{
+  iframe{
+    box-sizing: border-box;
+    margin: 1em;
+    width: 80%;
+    aspect-ratio: 16/9;
+  }
 }

@@ -12,9 +12,9 @@
   </head>
   <body class="">
     <div class="centerColumnHolder flex flexJustifyCenter">
-      <div class="centerColumn">
+      <div class=" centerColumn">
         <!-- hero -->
-        <h1 data-aos="fade-up">How The Vernier Calipers Work</h1>
+        <h1 class="mainTitle" data-aos="fade-up">How The Vernier Calipers Work</h1>
         <div data-aos="fade-up" data-aos-delay="100" class="heroCaliper hugHeight flex flexJustifyCenter">
           <div class="heroHolder">
             <img class="" src="src/assets/hero/midLayer.svg" alt="" srcset="">
@@ -26,45 +26,53 @@
             </div>
           </div>
         </div>
-        <p data-aos="fade-up" data-aos-delay="150" class="constrainContentWidth">Vernier calipers should be a common sight for anyone that has been through highschool. A tool found in the lab to get more accurate measurements beyond the simple ruler. </p>
-        <div class="bigVernierRoot">
-          <img class="" src="./src/assets/bigVernier/bot.svg" alt="">
-          <div class="overlay">
-            <div data-aos="fade-right">
-              <img class="slider" src="./src/assets/bigVernier/top.svg" alt="">
-              <div class="vernierScaleWords">
-                <div class="line1">And it's all because of this:</div>
-                <div class="line2">The Vernier Scale</div>
+        <p data-aos="fade-up" data-aos-delay="150" class="para  fillWidth">Vernier calipers should be a common sight for anyone that has been through highschool. A tool found in the lab to get more accurate measurements beyond the simple ruler. </p>
+
+        <div class="moveUpBigVernier">
+          <div class=" bigVernierRoot">
+            <img class="bot" src="./src/assets/bigVernier/bot.svg" alt="">
+            <div data-aos="fade-right" data-aos-delay="250" class=" slideIn">
+              <div class="slideHolder">
+                <div class="slideWords">And it's all because of this.</div>
+                <div class="slideWords slideWordsBottom"><strong>The Vernier Scale</strong></div>
+                <img src="./src/assets/bigVernier/top.svg" alt="">
+                <div class="payAttentionRoot fillWidth fillHeight overlay flex flexAlignEnd flexJustifyEnd">
+                  <p class="para payAttention">Hope you paid attention in science class cause this article will dive into understanding why it works rather than how</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="constrainContentWidth payAttentionRoot fillWidth flex flexJustifyEnd">
-          <p class=" payAttention">Hope you paid attention in science class cause this article will dive into understanding why it works rather than how</p>
-        </div>
 
-        <div class="moveUp">
+        <div class=" moveUp">
           <!-- the vernier scale -->
-          <div class="flex constrainContentWidth">
-            <div class="vernierPara halfWidth">The vernier scale works with one simple twist. That it is 1/10th shorter than the main scale.</div>
+          <div class=" vernierScale flex flexAlignCenter fillWidth">
+            <div class="para vernierPara ">The vernier scale works with one simple twist. That it is 1/10th shorter than the main scale.</div>
+            <img class="" src="./src/assets/vernierScale.gif" alt="">
           </div>
 
           <!-- rhythm of offsets -->
           <h2>This creates a rhythm of offsets</h2>
-          <div class="placeHolder"></div>
-          <h3>It's this pattenr that gives the tool it's accuracy</h3>
-          <div class="placeHolder"></div>
-          <h3>For any of the markings to align, They'd have to cross the difference.</h3>
+          <div class="rhythmOfOffsets flex flexAlignCenter flexJustifyCenter">
+            <img class="" src="./src/assets/rhythmOfOffsets.gif" alt="">
+          </div>
+          <div class="para">
+            <h3 >It's this pattern that gives the tool its accuracy.</h3>
+            <h3 >For any of the markings to align, They'd have to travel the difference.</h3>
+          </div>
+          <div class="finalDiagram">
+            <img id="finalDiagramSlider" class="bot" src="./src/assets/finalDiagram/bot.svg" alt="">
+            <img class="top" src="./src/assets/finalDiagram/top.svg" alt="">
+            <div id="aligner"></div>
+          </div>
 
-          <h1>That's How The Vernier Calipers Work</h1>
+          <h1 class="para">That's How The Vernier Calipers Work</h1>
 
           <div class="hr"></div>
 
           <div class="ending flex flexColumn flexAlignCenter">
-            <div class="">This is an experiment i am trying out to do interactive articles. checkout the oringal video here.</div>
-            <iframe width="420" height="315"
-              src="https://www.youtube.com/embed/tgbNymZ7vqY">
-            </iframe>
+            <div class="para">This is an exploration of doing interactive educational articles, like the New York times. The content is ported from an educational video I created some years earlier. </div>
+            <iframe src="https://www.youtube.com/embed/yDxxQvKMeQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>

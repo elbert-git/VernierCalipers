@@ -3,10 +3,19 @@
 @use './heroCaliper.scss';
 @use './bigVernier.scss';
 @use './ending.scss';
+@use './vernierScale.scss';
+@use './finalDiagram.scss';
+@use './rhythmOfOffsets.scss';
 
 .moveUp{
   position: relative;
-  top: -9em;
+  top: -6em;
+  width: 100%;
+}
+.moveUpBigVernier{
+  position: relative;
+  top: -2em;
+  width: 100%;
 }
 
 .hr{
@@ -14,4 +23,9 @@
   height: 0.1em;
 
   background-color: black;
+}
+
+.para{
+  box-sizing: border-box;
+  padding: 1em;
 }

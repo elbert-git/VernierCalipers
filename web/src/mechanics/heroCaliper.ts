@@ -9,7 +9,7 @@ export default function initCalipers(){
 
   // get size of size of hero
   let heroSize = elArea.clientWidth;
-  document.addEventListener('resize', ()=>{
+  window.addEventListener('resize', ()=>{
     heroSize = elArea.clientWidth;
   })
    
