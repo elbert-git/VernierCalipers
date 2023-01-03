@@ -1,4 +1,4 @@
-$blue: #9BE1FF;
+$blue: #99DFFC;
 
 
 /* -------------  My css Stuff */
@@ -98,4 +98,8 @@ body{
 
 h1, h2, h3{
   text-align:  center;
+}
+
+.dropShadow{
+  filter: drop-shadow(-10px 10px 8px rgba(0, 0, 0, 0.24));
 }
