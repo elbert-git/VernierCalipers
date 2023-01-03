@@ -128,7 +128,7 @@ html {
   width: 100vw;
   max-width: 100vw;
   overflow-x: clip;
-  background-color: #9BE1FF;
+  background-color: #99DFFC;
 }
 
 body {
@@ -162,6 +162,10 @@ body {
 
 h1, h2, h3 {
   text-align: center;
+}
+
+.dropShadow {
+  filter: drop-shadow(-10px 10px 8px rgba(0, 0, 0, 0.24));
 }
 
 .constrainContentWidth {
