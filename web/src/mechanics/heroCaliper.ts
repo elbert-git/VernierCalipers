@@ -8,7 +8,6 @@ export function map(current: number, in_min: number, in_max: number, out_min: nu
 export default function initCalipers(){
   const offset = 0.1;
   const limit = 0.67125;
-  const measurementThreshold = 0.1;
   const elArea:HTMLElement = document.querySelector('.heroHolder')!;
   const elSlidingElement:any = document.querySelectorAll('.heroSlider')!;
   const elLabel = document.querySelector('.heroMeasurementLabel')!;
